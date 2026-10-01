@@ -110,6 +110,7 @@ header::after {
 
 }
 
+
 .small-header h1 {
 
     color: white;
@@ -274,7 +275,6 @@ header h1 span {
     background-color: transparent;
 
     border: 2px solid white;
-
 
 }
 
@@ -1217,6 +1217,398 @@ footer p {
     .service-card {
 
         padding: 22px;
+
+    }
+
+}
+
+
+/* ==============================
+   TESTIMONIALS SECTION
+============================== */
+
+.testimonials-section {
+
+    width: 90%;
+
+    max-width: 1000px;
+
+    text-align: center;
+
+}
+
+
+.testimonials-intro {
+
+    max-width: 650px;
+
+    margin: 15px auto 30px;
+
+    font-size: 16px;
+
+    line-height: 1.7;
+
+    color: #555555;
+
+}
+
+
+/* ==============================
+   TESTIMONIAL CARDS
+============================== */
+
+.testimonials-container {
+
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 25px;
+
+    margin-top: 25px;
+
+}
+
+
+.testimonial-card {
+
+    background-color: #f8fafc;
+
+    border: 1px solid #dddddd;
+
+    border-radius: 10px;
+
+    padding: 25px;
+
+    text-align: center;
+
+    transition: 0.3s;
+
+}
+
+
+/* ==============================
+   TESTIMONIAL ICON
+============================== */
+
+.testimonial-icon {
+
+    width: 60px;
+
+    height: 60px;
+
+    margin: 0 auto 15px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    background-color: #1f4e79;
+
+    color: white;
+
+    border-radius: 50%;
+
+    font-size: 20px;
+
+    font-weight: bold;
+
+    transition: 0.3s;
+
+}
+
+
+/* ==============================
+   TESTIMONIAL TITLE
+============================== */
+
+.testimonial-card h3 {
+
+    color: #1f4e79;
+
+    margin: 10px 0 8px;
+
+    font-size: 20px;
+
+}
+
+
+/* ==============================
+   TESTIMONIAL ROLE
+============================== */
+
+.testimonial-role {
+
+    color: #e67e22;
+
+    font-size: 14px;
+
+    font-weight: bold;
+
+    margin-bottom: 15px;
+
+}
+
+
+/* ==============================
+   TESTIMONIAL TEXT
+============================== */
+
+.testimonial-text {
+
+    color: #555555;
+
+    font-size: 15px;
+
+    line-height: 1.7;
+
+}
+
+
+/* ==============================
+   TESTIMONIAL HOVER
+============================== */
+
+.testimonial-card:hover {
+
+    transform: translateY(-6px);
+
+    box-shadow:
+        0 8px 20px rgba(0, 0, 0, 0.15);
+
+    border-color: #1f4e79;
+
+}
+
+
+.testimonial-card:hover .testimonial-icon {
+
+    background-color: #e67e22;
+
+    transform: scale(1.1);
+
+}
+
+
+/* ==============================
+   FEEDBACK SECTION
+============================== */
+
+.feedback-section {
+
+    max-width: 700px;
+
+    margin: 60px auto 20px;
+
+    padding: 30px;
+
+    background-color: #f8fafc;
+
+    border: 1px solid #dddddd;
+
+    border-radius: 10px;
+
+}
+
+
+/* ==============================
+   FEEDBACK INTRO
+============================== */
+
+.feedback-intro {
+
+    color: #555555;
+
+    font-size: 15px;
+
+    line-height: 1.6;
+
+    margin-bottom: 25px;
+
+}
+
+
+/* ==============================
+   FEEDBACK FORM
+============================== */
+
+.feedback-form {
+
+    text-align: left;
+
+    background-color: transparent;
+
+    padding: 0;
+
+    border: none;
+
+}
+
+
+/* ==============================
+   FEEDBACK FORM GROUP
+============================== */
+
+.feedback-form .form-group {
+
+    margin-bottom: 20px;
+
+}
+
+
+/* ==============================
+   FEEDBACK FORM LABEL
+============================== */
+
+.feedback-form .form-group label {
+
+    display: block;
+
+    margin-bottom: 8px;
+
+    color: #1f4e79;
+
+    font-weight: bold;
+
+    font-size: 15px;
+
+}
+
+
+/* ==============================
+   FEEDBACK INPUTS
+============================== */
+
+.feedback-form .form-group input,
+.feedback-form .form-group select,
+.feedback-form .form-group textarea {
+
+    width: 100%;
+
+    padding: 12px;
+
+    border: 1px solid #cccccc;
+
+    border-radius: 5px;
+
+    font-family: Arial, sans-serif;
+
+    font-size: 15px;
+
+    box-sizing: border-box;
+
+    outline: none;
+
+    transition: 0.3s;
+
+}
+
+
+/* ==============================
+   FEEDBACK INPUT FOCUS
+============================== */
+
+.feedback-form .form-group input:focus,
+.feedback-form .form-group select:focus,
+.feedback-form .form-group textarea:focus {
+
+    border-color: #1f4e79;
+
+    box-shadow:
+        0 0 5px rgba(31, 78, 121, 0.2);
+
+}
+
+
+/* ==============================
+   FEEDBACK TEXTAREA
+============================== */
+
+.feedback-form .form-group textarea {
+
+    resize: vertical;
+
+}
+
+
+/* ==============================
+   FEEDBACK BUTTON
+============================== */
+
+.feedback-button {
+
+    display: block;
+
+    width: 100%;
+
+    padding: 12px;
+
+    background-color: #e67e22;
+
+    color: white;
+
+    border: none;
+
+    border-radius: 5px;
+
+    font-size: 15px;
+
+    font-weight: bold;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+
+}
+
+
+.feedback-button:hover {
+
+    background-color: #1f4e79;
+
+}
+
+
+/* ==============================
+   TESTIMONIAL RESPONSIVE
+============================== */
+
+@media (max-width: 800px) {
+
+    .testimonials-container {
+
+        grid-template-columns: 1fr;
+
+    }
+
+    .testimonials-section {
+
+        width: 92%;
+
+    }
+
+    .feedback-section {
+
+        padding: 25px;
+
+    }
+
+}
+
+
+@media (max-width: 500px) {
+
+    .testimonial-card {
+
+        padding: 20px;
+
+    }
+
+    .feedback-section {
+
+        padding: 20px;
 
     }
 
